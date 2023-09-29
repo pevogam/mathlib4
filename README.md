@@ -16,9 +16,12 @@ as well as tactics that use the former and allow to develop the latter.
 
 You can find detailed instructions to install Lean, mathlib, and supporting tools on [our website](https://leanprover-community.github.io/get_started.html).
 
-## Experimenting
+## Experimenting with and using `mathlib4` as a dependency
 
-Got everything installed? Why not start with the [tutorial project](https://leanprover-community.github.io/install/project.html)?
+Got everything installed? Why not start with this [tutorial project](https://leanprover-community.github.io/install/project.html)?
+
+To use `mathlib4` as a dependency in your own new or previously existing project, please refer to
+[https://github.com/leanprover-community/mathlib4/wiki/Using-mathlib4-as-a-dependency](https://github.com/leanprover-community/mathlib4/wiki/Using-mathlib4-as-a-dependency)
 
 For more pointers, see [Learning Lean](https://leanprover-community.github.io/learn.html).
 
@@ -104,11 +107,6 @@ The HTML files can then be found in `build/doc`.
 If you are a mathlib contributor and want to update dependencies, use `lake update -Kdoc=on`.
 This will update the `lake-manifest.json` file correctly.
 You will need to make a PR after committing the changes to this file.
-
-## Using `mathlib4` as a dependency
-
-Please refer to
-[https://github.com/leanprover-community/mathlib4/wiki/Using-mathlib4-as-a-dependency](https://github.com/leanprover-community/mathlib4/wiki/Using-mathlib4-as-a-dependency)
 
 ## Maintainers:
 
