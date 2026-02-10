@@ -134,6 +134,8 @@ theorem div_lt_div_iff_mul_lt_mul {a b c d : ℤ} (b_pos : 0 < b) (d_pos : 0 < d
   · simp [div_def', Rat.divInt_le_divInt b_pos d_pos]
   · simp [div_def', Rat.divInt_le_divInt d_pos b_pos]
 
+theorem le_one_iff_num_le_denom {q : ℚ} : q ≤ 1 ↔ q.num ≤ q.den := by simp [Rat.le_iff]
+
 theorem lt_one_iff_num_lt_denom {q : ℚ} : q < 1 ↔ q.num < q.den := by simp [Rat.lt_iff]
 
 theorem abs_def (q : ℚ) : |q| = q.num.natAbs /. q.den := by
